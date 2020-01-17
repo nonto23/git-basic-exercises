@@ -3,5 +3,7 @@ nothing bothers me than a blue Monaday
 Moving forward
 Focus is important
 Descipline is a key to success
+more 
+Friday
 
 
