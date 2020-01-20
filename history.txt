@@ -1,0 +1,297 @@
+    1  cd Downloads/
+    2  ls
+    3  sudo tar xvzf ideaIC-2019.3.1.tar.gz -C /optooo/opt
+    4  wget https://download.jetbrains.com/idea/ideaIC-2019.1-jbr11.tar.gz
+    5  tar -zxvf ideaIC-*.tar.gz
+    6  cd idea-*/bin/
+    7  tar -zxvf ideaIC-*.tar.gz
+    8  cd idea-*/bin/
+    9  sh idea.sh
+   10  ls
+   11  pwd
+   12  mkdir workspace
+   13  cd workspace
+   14  ls
+   15  touch README.md
+   16  cp README.md CHANGELOG.md
+   17  touch exercise.md
+   18  mv exercise.md /tmp
+   19  ls
+   20  cd tmp
+   21  cd..
+   22  cd ..
+   23  cd tmp
+   24  ls
+   25  cd workspace
+   26  cd ..
+   27  cd /tmp
+   28  ls
+   29  rm exercise
+   30  rm exercise.md
+   31  ls
+   32  cd workspace
+   33  cd ..
+   34  cd workspace
+   35  ls
+   36  cd ~
+   37  ls
+   38  cd workspace
+   39  touch exercise.md
+   40  mv exercise.md /tmp
+   41  rm exercise.md /tmp
+   42  rm exercise.md/tmp
+   43  rm exercise.md../tmp
+   44  ~ /
+   45  cd /tmp
+   46  cd ~/
+   47  cd workspace
+   48  rm exercise.md ../tmp
+   49  rm exercise.md ~../tmp
+   50  rm exercise.md ~/tmp
+   51  ls
+   52  rm exercise.md ../../tmp
+   53  rm ../../tmp exercise.md
+   54  cd ~
+   55  cd workspace
+   56  touch umuzi.md
+   57  touch recruits.md
+   58  touch cohort.md
+   59  ls
+   60  rm /tmp/exercise.md
+   61  rm workspace/tmp/exercise.md
+   62  cd /tmp
+   63  ls
+   64  cd ~
+   65  cd workspace
+   66  ls
+   67  touch exercise.md
+   68  ls
+   69  mv exercise.md/tmp
+   70  mv /tmp exercise.md
+   71  ls
+   72  mv exercise.md /tmp
+   73  rm workspace/tmp/exercise.md
+   74  rm /tmp /exercise.md
+   75  rm /tmp/ exercise.md
+   76  rm ~/tmp/exercise.md
+   77  clear
+   78  rm /tmp/exercise.md
+   79  cd /tmp
+   80  ls
+   81  cd ~
+   82  cd workspace
+   83  cd umuzi.md
+   84  ls
+   85  cd umuzi.md
+   86  echo "umuzi culture" > umuzi.md
+   87  cat umuzi.md
+   88  echo "password" > cohort.md
+   89  cat cohort.md
+   90  ls
+   91  echo "Umuzi recruits are are friendly and open" > recruits.md
+   92  cat recruits.md
+   93  cat umuzi.md recruits.md cohort.md
+   94  clear
+   95  cat umuzi.md recruits.md cohort.md
+   96  touch summary.md
+   97  cat umuzi.md recruits.md cohort.md > summary.md
+   98  cat summary.md
+   99  cat umuzi.md recruits.md cohort.md | sort > summary.md
+  100  cat summary.md
+  101  echo "The End" >> summary.md
+  102  cat summary.md
+  103  locate umuzi.md
+  104  cd ..
+  105  cd workspace
+  106  clear
+  107  locate umuzi
+  108  locate umuzi > search_result.md
+  109  cat search_result.md
+  110  clear
+  111  cd ..
+  112  ls
+  113  cd Documents
+  114  touch pad.md
+  115  cd Desktop
+  116  cd ..
+  117  cd Desktop
+  118  mkdir work
+  119  ls
+  120  cp ~/Documents/pad.md pad_copy.md
+  121  ls
+  122  ls
+  123  pwd
+  124  cd workspace
+  125  ls
+  126  cd ..
+  127  ls
+  128  cd workspace
+  129  locate updatedb
+  130  cd -
+  131  locate
+  132  locate pad_copy.md
+  133  $ find ./GFG -name *.pdf
+  134  $ find ./GFG -name *.txt
+  135  ls
+  136  cd Downloads
+  137  $ find ./GFG -name *.txt
+  138  ls |grep \.pdf
+  139  cd..
+  140  cd ~
+  141  ls |grep \.pdf
+  142  ls |grep \.txt
+  143  locate .pdf
+  144  locate .txt
+  145  clear
+  146  locate .pdf
+  147  find -name .pdf
+  148  find -name *.pdf
+  149  cp locate .pdf > fistday.md
+  150  touch firstday.md
+  151  cp locate .pdf > fistday.md
+  152  cp locate .pdf firstday.md
+  153  clear
+  154  locate .pdf >> searched_result
+  155  cat searched_result
+  156  -newer file
+  157  find -newer file
+  158  ls  -al --time-style=+%D | grep 'date +%D'
+  159  ls a
+  160  find . -maxdepth 1 -newermt "2020-01-15"
+  161  clear
+  162  find . -maxdepth 1 -newermt "2020-01-15"
+  163  clear
+  164  nano my_bio.md
+  165  cat my_bio.md
+  166  nano my_bio.md
+  167  mkdir my_files
+  168  mv my_bio.md > my_files
+  169  mv my_bio.md / my_files
+  170  mv my_bio.md my_files
+  171  ls
+  172  locate my_bio.md
+  173  cd workspace
+  174  ls
+  175  cd ~
+  176  cat my_bio.md
+  177  nano my_bio.md
+  178  cat my_bio
+  179  cat my_bio.md
+  180  ls
+  181  clear
+  182  mv my_bio.md my_files
+  183  cd my_files
+  184  ls
+  185  cd ~
+  186  ls
+  187  rename searched_result searched_res
+  188  sudo apt install snapd
+  189  sudo snap install notepad plus-plus
+  190  sudo snap install notepad-plus-plus
+  191  notepad-plus-plus
+  192  /snap/bin/notepad-plus-plus
+  193  find -name  '*.pdf'
+  194  cd Documents
+  195  touch pad.md
+  196  cd ~
+  197  cd Desktop
+  198  mkdir work
+  199  cp ~/Documents/pad.md pad_copy.md
+  200  locate updatedb
+  201  cd -
+  202  locate pad_copy.md
+  203  find -name '*.pdf'
+  204  find -a '*.pdf'
+  205  find -a *.pdf*
+  206  find -name '*.pdf' >> searched_result.md
+  207  cat searched_result.md
+  208  find . -maxdepth 1 -newermt "2020-01-16"
+  209  cd workspace
+  210  cat > nonto.md
+  211  cd workspace
+  212  cat > Nonto.md "NOTHING"
+  213  cat > Nonto.md 
+  214  cat Nonto.md
+  215  sudo apt install git
+  216  git clone https://github.com/nonto23/Linux_Challenges.git
+  217  git commit
+  218  git status
+  219  cd ~
+  220  nano mybio
+  221  cd workspace
+  222  cat >>summary.md
+  223  cat summary.md
+  224  git clone https://github.com/nonto23/Linux_Challenges.git
+  225  cd Linux_Challenges/
+  226  ls
+  227  cd Linux-Challenges
+  228  ls
+  229  git add *
+  230  git status
+  231  git commit -m "task 1-7"
+  232  git config --global user.email "nnontokozo17@gmail.com"
+  233  git config --global user.name "nonto23"
+  234  git commit -m "task 1-7"
+  235  git push
+  236  mkdir git_basic_exercise
+  237  cd git_basic_exercise
+  238  ls -a
+  239  git init
+  240  ls -a
+  241  git status
+  242  touch README.md
+  243  ls -a
+  244  git status
+  245  git log
+  246  git add README.md
+  247  git status
+  248  git rm --cached README.md
+  249  git status
+  250  git add README.md
+  251  git status
+  252  git commit -m "initial commit"
+  253  git log
+  254  q
+  255  nano README.md
+  256  cat README.md
+  257  git status
+  258  git  add README.md
+  259  git checkout -- README.me
+  260  git checkout -- README.md
+  261  git commit -m "second commit"
+  262  nano README.md
+  263  git commit -m "Third commit"
+  264  cat README.md
+  265  git add README.md
+  266  git status
+  267  git commit -m "Third commit"
+  268  git log
+  269  git checkout e0d6645bac82b2e081d32db36dddbf3bfa033b51
+  270  cat README.md
+  271  git checkout master
+  272  cat README.md
+  273  git branch
+  274  git milkshake_flavours
+  275  git branch  milkshake_flavours
+  276  git branch
+  277  cd milkshake_flavours
+  278  cd branch  milkshake_flavours
+  279  git  branch  milkshake_flavours
+  280  git checkout milkshake_flavours
+  281  nano milkshake.md
+  282  git status
+  283  git add milkshake.md
+  284  git commit -m "Added initial flavours"
+  285  git log
+  286  git checkout master
+  287  git branch master
+  288  git branch
+  289  git checkout master
+  290  git checkout milkshake
+  291  git checkout milkshake_flavours
+  292  git branch
+  293  git checkout master
+  294  git branch history
+  295  git checkout  history
+  296  git log
+  297  history > history.txt
